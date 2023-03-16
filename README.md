@@ -13,7 +13,6 @@ npx create-react-app voca
 
 ### [2. 첫 컴포넌트 만들기](https://github.com/oiosu/React-JS/blob/master/02_%EC%B2%AB%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md) 
 ![image](https://user-images.githubusercontent.com/99783474/225535622-099e00b8-c4b2-4c53-80bf-ce7582b7be2d.png)
-![image](https://user-images.githubusercontent.com/99783474/225535654-8efa03ae-41c0-4224-a6f0-e0c7ed93cb7c.png)
 
 
 ### [3. CSS 작성법(Module CSS)](https://github.com/oiosu/React-JS/blob/master/03_CSS%20%EC%9E%91%EC%84%B1%EB%B2%95(module%20css).md)
