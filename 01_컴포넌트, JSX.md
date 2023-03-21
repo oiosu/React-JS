@@ -40,7 +40,7 @@ function App() {
 > }
 > ```
 >
-> ![image-20230315194658740](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315194658740.png)
+> ![image](https://user-images.githubusercontent.com/99783474/225358788-0a87960e-030f-4a53-a8d8-3f34b3a09580.png)
 >
 > ```react
 > import './App.css';
@@ -64,7 +64,7 @@ function App() {
 > 
 > ```
 >
-> ![image-20230315194933615](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315194933615.png)
+>![image](https://user-images.githubusercontent.com/99783474/225358846-78ec0f41-d861-4aa0-bef4-4ab7dd055077.png)
 >
 > ```react
 >     <div className="App">
@@ -78,7 +78,7 @@ function App() {
 >     </div>
 > ```
 >
-> ![image-20230315195217182](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315195217182.png)
+>![image](https://user-images.githubusercontent.com/99783474/225358882-709bee30-1dbc-484e-8935-fab836904d28.png)
 >
 > > 🔻 주의 ) 불린 타입이나 객체는 표현하지 못한다. 
 
@@ -105,5 +105,5 @@ function App() {
 > 
 > ```
 >
-> ![image-20230315195603671](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315195603671.png)
+> ![image](https://user-images.githubusercontent.com/99783474/225358927-15dc7e1a-ae93-4230-93a0-c5dd877d3b02.png)
 

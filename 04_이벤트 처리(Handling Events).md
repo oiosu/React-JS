@@ -16,7 +16,8 @@ export default function Hello() {
 }
 ```
 
-![image-20230315235339912](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315235339912.png)
+![image](https://user-images.githubusercontent.com/99783474/225359720-7f760816-a354-4793-b4a9-ad32741c3963.png)
+
 
 > 미리 함수를 작성하고 이벤트 만들어주기 
 
@@ -36,7 +37,7 @@ export default function Hello() {
 }
 ```
 
-![image-20230315235410357](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315235410357.png)
+![image](https://user-images.githubusercontent.com/99783474/225359789-0865ebea-e4b2-4f6e-ae5f-186fab13fe4e.png)
 
 
 
@@ -98,7 +99,7 @@ export default function Hello() {
 > > * target : input 태그 
 > > * value : input의 value 이기에 작성한 값이 된다. 
 
-![image-20230316000109979](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230316000109979.png)
+![image](https://user-images.githubusercontent.com/99783474/225359855-fa7645cc-5ed6-429f-a150-8eb73ede1aee.png)
 
 ```react
 <input 

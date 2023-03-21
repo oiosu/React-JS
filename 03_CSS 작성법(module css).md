@@ -15,7 +15,7 @@
 
 > 특별한 이유가 없다면 인라인 방식으로 작성하지 않는다. 
 >
-> ![image-20230315230430711](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315230430711.png)
+> ![image](https://user-images.githubusercontent.com/99783474/225359501-70e5501e-af0b-4e4a-a3ba-83a15a168774.png)
 
 
 
@@ -125,7 +125,7 @@ styles 라는 객체가 생성이 된 것, 다음과 같이 코드를 수정한�
 
 
 
-![image-20230315232940284](C:\Users\areur\AppData\Roaming\Typora\typora-user-images\image-20230315232940284.png)
+![image](https://user-images.githubusercontent.com/99783474/225359566-ffcbfed0-b701-48c9-adb1-1f1d8d75a25c.png)
 
 > 사실 css 크기가 커지면 가장 많이 고민 되는 것들이 바로 네이밍, 상속, 오버라이딩에 대한 부분인데 이 방식으로 말끔하게 해결할 수 있다. 
 
