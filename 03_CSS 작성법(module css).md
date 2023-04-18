@@ -2,7 +2,7 @@
 
 1. 인라인 스타일로 스타일 작성하기 
 
-```react
+```javascript
 <h1 style={{
                 color : "#f00",
                 borderRight: "12px solid #000",
@@ -26,7 +26,7 @@
 
 > (1) `App.js`
 >
-> ```react
+> ```javascript
 > function App() {
 >   return <div className='App'>
 >     <Hello />
@@ -37,7 +37,7 @@
 >
 > (2) `App.css`
 >
-> ```react
+> ```javascript
 > .box {
 >   width: 100px;
 >   height: 100px;
@@ -47,7 +47,7 @@
 >
 > (3) `Hello.js`
 >
-> ```react
+> ```javascript
 >         <div>
 >             <h1 style={{
 >                 color : "#f00",
@@ -83,19 +83,19 @@
 
 
 
-```react
+```javascript
 import "./Hello.css"
 ```
 
 위와 같은 코드를 다음과 같이 수정한다. 
 
-```react
+```javascript
 import styles from "./Hello.module.css";
 ```
 
 styles 라는 객체가 생성이 된 것, 다음과 같이 코드를 수정한다. 
 
-```react
+```javascript
 <div className={styles.box} /> Hello </div>
 ```
 
@@ -119,7 +119,7 @@ styles 라는 객체가 생성이 된 것, 다음과 같이 코드를 수정한�
 
 생성한 후 `App.js` 에 다음과 같이 코드 수정한다. 
 
-```react
+```javascript
 <div className={styles.box}/>App</div>;
 ```
 
