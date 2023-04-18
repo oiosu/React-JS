@@ -1,6 +1,6 @@
 # 01_컴포넌트, JSX
 
-```REACT
+```javascript
 function App() {
   return (
     <div className="App">
@@ -28,7 +28,7 @@ function App() {
 >
 > `<div className="App"></div>` 의 클래스는 자바스크립트의 예약어 이기 때문에 클래스 네임으로 작성해야 한다.  또한 스타일은 객체로 전달해줘야 적용이 된다. 
 >
-> ```react
+> ```javascript
 > function App() {
 >   return (
 >     <div className="App">
@@ -42,7 +42,7 @@ function App() {
 >
 > ![image](https://user-images.githubusercontent.com/99783474/225358788-0a87960e-030f-4a53-a8d8-3f34b3a09580.png)
 >
-> ```react
+> ```javascript
 > import './App.css';
 > 
 > function App() {
@@ -66,7 +66,7 @@ function App() {
 >
 >![image](https://user-images.githubusercontent.com/99783474/225358846-78ec0f41-d861-4aa0-bef4-4ab7dd055077.png)
 >
-> ```react
+> ```javascript
 >     <div className="App">
 >       <h1 style={{
 >         color : "red",
@@ -82,7 +82,7 @@ function App() {
 >
 > > 🔻 주의 ) 불린 타입이나 객체는 표현하지 못한다. 
 
-> ```react
+> ```javascript
 > function App() {
 >   const name = "Tom!";
 >   const naver = {
