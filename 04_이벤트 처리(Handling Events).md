@@ -4,7 +4,7 @@
 
 `Hello.js`
 
-```react
+```javascript
 export default function Hello() {
     return (
         <div>
@@ -21,7 +21,7 @@ export default function Hello() {
 
 > 미리 함수를 작성하고 이벤트 만들어주기 
 
-```react
+```javascript
 export default function Hello() {
     function showName() {
         console.log("Ready")
@@ -47,7 +47,7 @@ export default function Hello() {
 
 ##### 2. 내부에 함수를 직접 작성하기 
 
-```react
+```javascript
  <div>
             <h1>Hello</h1>
             <button onClick={showName}>Show name</button>
@@ -71,7 +71,7 @@ export default function Hello() {
 
 ##### 3. `input`
 
-```react
+```javascript
     function showText(e){
         console.log(e.target.value)
     }
@@ -92,7 +92,7 @@ export default function Hello() {
         </div>
 ```
 
-> ```react
+> ```javascript
 >  console.log(e.target.value)
 > ```
 >
@@ -101,7 +101,7 @@ export default function Hello() {
 
 ![image](https://user-images.githubusercontent.com/99783474/225359855-fa7645cc-5ed6-429f-a150-8eb73ede1aee.png)
 
-```react
+```javascript
 <input 
                 type="text"
                 onChange={e => {
