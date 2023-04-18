@@ -8,7 +8,7 @@
 
 #### Hello.js
 
-```react
+```javascript
 import { useState } from "react";
 
 export default function Hello(props) {
@@ -36,7 +36,7 @@ export default function Hello(props) {
 
 #### App.js
 
-```react
+```javascript
 import './App.css';
 import Hello from './component/Hello';
 
@@ -66,7 +66,7 @@ export default App;
 
 #### Hello.js
 
-```react
+```javascript
 import { useState } from "react";
 
 export default function Hello(props) {
@@ -97,7 +97,7 @@ export default function Hello(props) {
 
 #### App.js
 
-```react
+```javascript
 import './App.css';
 import Hello from './component/Hello';
 
@@ -127,7 +127,7 @@ export default App;
 
 #### Hello.js
 
-```react
+```javascript
 import { useState } from "react";
 
 export default function Hello({age}) {
@@ -158,7 +158,7 @@ export default function Hello({age}) {
 
 #### App.js
 
-```react
+```javascript
 import './App.css';
 import Hello from './component/Hello';
 
@@ -190,7 +190,7 @@ export default App;
 
 #### Hello.js
 
-```react
+```javascript
 import { useState } from "react";
 import UserName from "./UserName";
 
@@ -225,7 +225,7 @@ export default function Hello({age}) {
 
 #### UserName.js
 
-```react
+```javascript
 export default function UserName({name}){
     // 아무런 기능이 없음, 보여주기만 하는 컴포넌트
     return <p>Hello, {name}</p>
