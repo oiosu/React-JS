@@ -8,7 +8,7 @@
 
 ---
 
-```react
+```javascript
 export default function Hello() {
     let name = "Mike"
 
@@ -52,7 +52,7 @@ export default function Hello() {
 
 
 
-```react
+```javascript
 import { useState } from "react";
 
 export default function Hello() {
@@ -95,7 +95,7 @@ export default function Hello() {
 
 #### Hello.js
 
-```react
+```javascript
 import { useState } from "react";
 
 export default function Hello() {
@@ -122,7 +122,7 @@ export default function Hello() {
 
 #### App.js
 
-```react
+```javascript
 import './App.css';
 import Hello from './component/Hello';
 
