@@ -142,3 +142,77 @@ for(초기식; 조건식; 증감식) {
 * 중복으로 작성된 유사한 기능을 하는 코드는 동일한 기능을 일일이 타이핑 해야하는 점과 향후 코드를 수정 시 문제가 생길 수 있다. 
 * 이러한 문제들을 함수로 해결이 가능하다.
 
+### [09_함수 표현식과 화살표 함수](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%201%20JavaScript%20%EA%B8%B0%EB%B3%B8/12_%ED%95%A8%EC%88%98%20%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC%20%ED%99%94%EC%82%B4%ED%91%9C%20%ED%95%A8%EC%88%98.md)
+
+(1) 함수 표현식
+```JavaScript
+let varB = function funcB() {
+	console.log("funcB");
+};
+
+varB();
+```
+(2) 화살표 함수
+```JavaScript
+let varC = (value) => {
+  console.log(value);
+  return value + 1;
+};
+
+console.log(varC(10));
+```
+
+### [10_콜백함수](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%201%20JavaScript%20%EA%B8%B0%EB%B3%B8/13_%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98.md)
+```JavaScript
+function main(value) {
+    value();
+}
+function sub(){
+    console.log("sub");
+}
+
+main(sub);
+```
+
+### [11_스코프](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%201%20JavaScript%20%EA%B8%B0%EB%B3%B8/14_%EC%8A%A4%EC%BD%94%ED%94%84.md)
+* 전역 스코프 : 전체 영역에서 접근 가능
+* 지역 스코프 : 특정 영역에서만 접근 가능\
+```JavaScript
+let a = 1; // 전역 스코프
+
+function funcA() {
+  let b = 2; // 지역 스코프
+  console.log(a);
+}
+```
+
+### [12_객체](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%201%20JavaScript%20%EA%B8%B0%EB%B3%B8/16_%EA%B0%9D%EC%B2%B4(2).md)
+(1) 상수 객체 
+```JavaScript
+const animal = {
+  type: "고양이",
+  name: "나비",
+  color: "black",
+};
+
+animal.age = 2; // 추가
+animal.name = "까망이"; // 수정
+delete animal.color; // 삭제
+```
+
+(2) 메소드 
+```JavaScript
+const person = {
+  name: "임수경",
+  // 메서드 선언
+  sayHi() {
+    console.log("안녕!");
+  },
+};
+
+person.sayHi();
+// 안녕!
+person["sayHi"]();
+// 안녕!
+```
+
