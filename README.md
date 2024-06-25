@@ -1,6 +1,14 @@
 # Onebite React.js
 
-### React.js 개론 
+### Practice Project
+
+* [Investment Calculator](https://github.com/oiosu/React-JS/blob/kyung/01_Investment%20Calculator/React%20Essentials%20Practice%20Project/Build%20an%20Wep%20App.md)
+
+
+
+
+
+### React.js 개론
 
 |[01. React 기술적인 특징](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%204%20React.js%20%EA%B0%9C%EB%A1%A0/01_React.js.md)|[02 React App 생성하기(feat.vite)](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%204%20React.js%20%EA%B0%9C%EB%A1%A0/02_React%20App%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0.md)|[03. React 구동원리 살펴보기](https://github.com/oiosu/React-JS/blob/kyung/%EC%84%B9%EC%85%98%204%20React.js%20%EA%B0%9C%EB%A1%A0/03_React%20App%20%EA%B5%AC%EB%8F%99%EC%9B%90%EB%A6%AC%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0.md)|
 | ---- | ---- | ---- |
