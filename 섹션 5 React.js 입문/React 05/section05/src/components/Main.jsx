@@ -1,9 +1,5 @@
-const Main = () => {
-  return (
-    <main>
-      <h1>main</h1>
-    </main>
-  );
-};
+function Main() {
+  return <></>;
+}
 
 export default Main;
