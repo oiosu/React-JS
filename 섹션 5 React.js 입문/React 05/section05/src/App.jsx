@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1>리액트 설정중입니다.</h1>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
