@@ -2,7 +2,7 @@
 
 ### Practice Project
 
-* [Investment Calculator](https://github.com/oiosu/React-JS/blob/kyung/01_Investment%20Calculator/React%20Essentials%20Practice%20Project/Build%20an%20Wep%20App.md)
+* [Investment Calculator(투자 계산기)](https://github.com/oiosu/React-JS/blob/kyung/01_Investment%20Calculator/React%20Essentials%20Practice%20Project/Build%20an%20Wep%20App.md)
 
 ### React.js 개론 
 
